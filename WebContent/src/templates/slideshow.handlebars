@@ -1,0 +1,17 @@
+<div class="showcase-slide">
+	{{#each this}}
+    	<div class="slide {{cssClass}}">
+    		<img src="{{image}}" alt="{{altImage}}">
+	    </div>
+	{{/each}}      
+</div>
+<div class="showcase-toolbar">
+    <ul class="indicators">
+    	{{#each this}}
+    		<li>
+            	<a class="indicator{{@index}}" href="#slideshow"><img src="/img/indicator.png"></a>            	
+        	</li>
+		{{/each}}                
+    </ul>
+</div>
+<script language='javascript' type='text/javascript'>SLIDESHOW.TOOLBAR.init();</script>
