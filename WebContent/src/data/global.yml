@@ -1,0 +1,28 @@
+title: Nombre sitio web
+name: "Nombre Empresa"
+nameRight: "Marca Registrada"
+email: contactenos@email.com
+headerLogo: "img/logo.png"
+
+footerContent:
+  - disclaimer: "Empresa"
+  - disclaimer: "Todos los derechos reservados"
+  - disclaimer: "Info extra"
+
+slideShowContent:
+  - image: "assets/css/img/slide1.jpg"
+    altImage: "Descripcion 1"
+    cssClass: "slide0"
+    indicatorCssClass: ""
+
+  - image: "assets/css/img/slide2.jpg"
+    altImage: "Descripcion 2"
+    cssClass: "slide1 hidden"
+    indicatorCssClass: "inactive"
+
+  - image: "assets/css/img/slide3.jpg"
+    altImage: "Descripcion 3"
+    cssClass: "slide2 hidden"
+    indicatorCssClass: "inactive"
+
+

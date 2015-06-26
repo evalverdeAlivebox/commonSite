@@ -1,0 +1,37 @@
+title: "Titulo"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+phoneDescrition: "Directorio Telefónico"
+addressDescrition: "Nuestras localidades"
+mailDescrition: "E-Mails"
+socialMediaDescrition: "Redes sociales"
+
+phones:
+  - name: "Central"
+    phone: "(506)2255-5555"
+
+  - name: "Mobil"
+    phone: "(506)8855-9955"
+
+  - name: "Taller"
+    phone: "(506)7785-5555"
+
+addresses:
+  - name: "Nombre Localidad 1"
+    address: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+  - name: "Nombre Localidad 2"
+    address: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+mails:
+  - name: "Ventas"
+    mail: "ventas@mail.com"
+
+  - name: "Departamento"
+    mail: "departamento@mail.com"
+
+socialMediaLinks:
+  - name: "Facebook"
+    url: "facebook.com"
+
+  - name: "Twitter"
+    url: "twitter.com"

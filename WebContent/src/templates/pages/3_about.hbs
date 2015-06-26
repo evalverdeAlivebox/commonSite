@@ -1,0 +1,13 @@
+---
+title: Quiénes somos
+display: true 
+---
+<div id='about' class='content-area'>
+	{{#each about.aboutContent}}
+        <div class="section">
+			<h2>{{ title }}</h2>
+			<h3>{{ subtitle }}</h3>
+			<p>{{ description }}</p>			
+		</div>
+    {{/each}}		
+</div>

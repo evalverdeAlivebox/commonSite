@@ -1,0 +1,22 @@
+---
+component: navbar
+---
+<div id="header" class="content-area">
+    <ul class="menu">
+        <li class="header-logo-container">
+            <a href='{{relative page.dest "dist/index.html"}}'>
+                <img class="header-logo" src="{{global.headerLogo}}">
+            </a>
+        </li>
+        {{#each pages}}
+            {{#if data.title}}
+                {{#if data.display}}
+                    <li {{#if this.isCurrentPage}} class="active"{{/if}}>
+                        <a href="{{relative dest this.dest}}">{{ data.title }}</a>
+                    </li>
+                {{/if}}
+            {{/if}}    
+        {{/each}}  
+    </ul>    
+</div>
+

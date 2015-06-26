@@ -1,0 +1,30 @@
+---
+title: Contacto
+display: true
+---
+<div id='contact' class='content-area'>
+	<div class="section">
+		<h2>{{ contact.title }}</h2>
+		<p>{{ contact.description }}</p>	
+		<div class="contact-info">				
+			<h3>{{ contact.phoneDescrition }}</h3>
+			{{#each contact.phones}}
+		    	<h4>{{ name }}: <span>{{ phone }}</span></h4>						
+		    {{/each}}
+		    <h3>{{ contact.mailDescrition }}</h3>
+			{{#each contact.mails}}
+		    	<h4>{{ name }}: <a href="mailto:{{mail}}">{{mail}}</a></h4>						
+		    {{/each}}
+		    <h3>{{ contact.socialMediaDescrition }}</h3>
+			{{#each contact.socialMediaLinks}}
+		    	<h4>{{ name }}: <a  target="_blank" href="{{url}}">{{url}}</a></h4>						
+		    {{/each}}
+		    <h3>{{ contact.addressDescrition }}</h3>
+			{{#each contact.addresses}}
+		    	<h4>{{ name }}: <span>{{ address }}</span></h4>						
+		    {{/each}}		    
+	    </div>
+    </div>	
+</div>
+
+
